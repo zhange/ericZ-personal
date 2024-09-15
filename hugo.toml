@@ -1,0 +1,80 @@
+aseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Eric Zhang'
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+# Google analytics code
+googleAnalytics = "G-xxxxxxxxx"
+
+[params]
+# Meta description
+description = "A personal website for Eric Zhang"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = "Hi, I'm Eric!"
+homeIntroContent = """
+I am a Full-Stack web developer with experience in UX design + development, backend service management, and everything in between.
+
+I love creating delightful UX experiences, improving maintainabily of developer infrastructure, and solving tough problems with elegant solutions.
+"""
+
+# Collection to display on home
+#homeCollectionTitle = 'Posts'
+#homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/ericyzhang1/"
+
+#[[params.social]]
+#name = "medium"
+#url = "https://medium.com/@user"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/zhange"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+# Menu items config - no content atm
+#[[params.menu]]
+#name = "posts"
+#url = "/posts"
+#[[params.menu]]
+#name = "about"
+#url = "/about"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
